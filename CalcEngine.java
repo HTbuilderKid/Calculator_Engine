@@ -82,6 +82,10 @@ public class CalcEngine
     public void clear()
     {
         displayValue = 0;
+        // To make this actually do a full reset, we need to make it clear
+        // the leftOperand and the previousOperator too
+        leftOperand = 0;
+        previousOperator = ' ';
     }
 
     /**
