@@ -18,3 +18,5 @@ else {
    leftOperand = displayValue;
 }
 This basically makes sure that if no operator was pressed, the engine just uses the number as-is. So the asnwer to 27 would simply be: pressing = without any operator would produce a wrong result
+
+28. After calling clear(), the engine is not in the same state as it was after the first clear() because previousOperator is still '+', because the clear() just changes the current displayValue to 0, and doesn't change anything else
