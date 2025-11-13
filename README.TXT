@@ -1,8 +1,3 @@
-------------------------------------------------------------------------
-Super Calculator
-Author: Hacker T. Largebrain
-------------------------------------------------------------------------
 
-This program implements a highly efficient calculating engine for
-a pocket calculator. It includes a complete test rig to demonstrate
-that the engine works as it should.
+22. Well, the line about ("All tests passed") is hardcoded text, and the method never actually checks whether the results are correct, it just prints the message after running the tests. Even if the calculations were wrong, it would still print the same text
+
