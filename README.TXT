@@ -6,3 +6,5 @@
 24. The same logic as 23, and the answer we get is 5. 9 - 4 = 5. The logic is right, and the test shows that the output is also correct.
 
 25. When inspecting the logic, I noticed that equals() assumes that if previousOperator isn't +, it's -, which means that any other operator will de defaulted to substraction (including space). 
+
+26. *Please refer to the screenshoot of the excel sheet in the repository :)*
