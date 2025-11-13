@@ -70,8 +70,14 @@ public class CalcEngine
         if(previousOperator == '+') {
             displayValue = leftOperand + displayValue;
         }
-        else {
+        // We can add an else if for typing the - sign too
+        else if(previousOperator == '-') {
             displayValue = leftOperand - displayValue;
+        }
+        // So now, if we press = before typing any actual operators, the displayValue
+        // just stays as-is, just like a real calculator
+        else {
+            displayValue = displayValue;
         }
         leftOperand = 0;
     }
